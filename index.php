@@ -14,43 +14,45 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/scrolling-nav.css?v=1.0" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid19-TMS</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About Coronavirus </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#symptoms">Covid-19 Symptoms</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#prevention">Prevention</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link js-scroll-trigger" href="new-user-testing.php">Testing</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link js-scroll-trigger" href="login.php">Admin</a>
-          </li>
-        </ul>
-      </div>
+<nav class="py-2 navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid19-TMS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About Coronavirus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#symptoms">Symptoms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#preventions">Preventions</a>
+        </li>
+        <!-- Button-like items -->
+        <li class="nav-item active">
+          <a class="btn btn-outline-light js-scroll-trigger" href="new-user-testing.php">Testing</a>
+        </li>
+        <li class="nav-item active">
+          <a class="btn btn-light js-scroll-trigger" href="login.php">Admin</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <header class="bg-primary text-white">
+
+  <header class="bg-primary custom-bg">
     <div class="container text-center">
       <h1>COVID19-TMS</h1>
       <p class="lead">COVID19 - Testing Management System</p>
@@ -61,7 +63,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
+          <h2 class="text-center">About Coronavirus</h2>
           <p class="lead">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered
             coronavirus. Most people infected with the COVID-19, virus will experience mild to moderate, respiratory
             illness & recover without requiring special treatment. Older people and those with underlying medical
@@ -78,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Covid-19 Symptoms</h2>
+          <h2 class="text-center">Covid-19 Symptoms</h2>
           <hr />
           <p><strong>Hight Fever 2-14 days!</strong><br />
             Reported illnesses have ranged from mild symptoms to severe illness and death</p>
@@ -93,11 +95,11 @@
     </div>
   </section>
 
-  <section id="prevention">
+  <section id="preventions">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Prevention</h2>
+          <h2 class="text-center">Preventions</h2>
           <ul>
             <li>Wash your Hands often</li>
             <li>Wear A Face mask</li>
@@ -110,7 +112,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-4 bg-primary">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Covid19-TMS 2024</p>
     </div>
