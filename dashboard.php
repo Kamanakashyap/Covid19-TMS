@@ -106,7 +106,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                         Total Tests</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                        <?php echo $totaltest; ?></div>
+                                                        <?php echo $totaltest; ?>
+                                                    </div>
                                                 </div>
                                                 <div class="col-auto">
                                                     <i class="fas fa-virus fa-2x text-gray-300"></i>
@@ -127,7 +128,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                         Total Assigned</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                        <?php echo $totalassigned; ?></div>
+                                                        <?php echo $totalassigned; ?>
+                                                    </div>
                                                 </div>
                                                 <div class="col-auto">
                                                     <i class="fas fa-user fa-2x text-gray-300"></i>
@@ -151,7 +153,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col-auto">
                                                             <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
-                                                                <?php echo $totalontheway; ?></div>
+                                                                <?php echo $totalontheway; ?>
+                                                            </div>
                                                         </div>
                                                         <div class="col">
 
@@ -177,7 +180,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                                         Sample Collected</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                        <?php echo $totalsamplecollected; ?></div>
+                                                        <?php echo $totalsamplecollected; ?>
+                                                    </div>
                                                 </div>
                                                 <div class="col-auto">
                                                     <i class="fas fa-prescription-bottle fa-2x text-gray-300"></i>
@@ -198,7 +202,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                                         Sample Sent to Lab</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                        <?php echo $totalsenttolab; ?></div>
+                                                        <?php echo $totalsenttolab; ?>
+                                                    </div>
                                                 </div>
                                                 <div class="col-auto">
                                                     <i class="fas fa-microscope fa-2x text-gray-300"></i>
@@ -221,7 +226,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col-auto">
                                                             <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
-                                                                <?php echo $totaldelivered; ?></div>
+                                                                <?php echo $totaldelivered; ?>
+                                                            </div>
                                                         </div>
                                                         <div class="col">
 
@@ -249,7 +255,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                     Total Registered Patients</div>
                                                 <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                    <?php echo $totalpatients; ?></div>
+                                                    <?php echo $totalpatients; ?>
+                                                </div>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="fas fa-users fa-2x text-gray-300"></i>
@@ -271,7 +278,8 @@ if (strlen($_SESSION['aid'] == 0)) {
                                                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                         Total Registered Phlebotomist</div>
                                                     <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                        <?php echo $totalphlebotomist; ?></div>
+                                                        <?php echo $totalphlebotomist; ?>
+                                                    </div>
                                                 </div>
 
                                                 <div class="col-auto">

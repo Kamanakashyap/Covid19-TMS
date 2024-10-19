@@ -263,7 +263,7 @@ while($row=mysqli_fetch_array($query)){
 <?php else: 
 $rstatus=$row['ReportStatus'];
 if($rstatus=='Assigned' || $rstatus=='On the Way for Collection' || $rstatus=='Sample Collected' || $rstatus=='Sent to Lab'):?>
-<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#takeaction">Take Action</button>
+<!-- <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#takeaction">Take Action</button> -->
 <?php 
 endif;
 endif;?>    
